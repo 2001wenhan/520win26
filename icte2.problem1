@@ -1,0 +1,56 @@
+Script started on 2026-01-13 12:42:43+08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="118" LINES="14"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ [7m# Print welcome message[27m
+[7mecho "Hello and welcome to ICTE2!"[27m
+
+[7m# Display current date and time[27m
+[7mdate[27m[A[A[A[A]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ # Print welcome message
+echo "Hello and welcome to ICTE2!"
+
+# Display current date and time
+[1Pdat[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m# Print welcome message[27m
+[7mecho "Hello and welcome to ICTE2!"[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ # Print welcome message
+echo "Hello and welcome to ICTE2!"
+[?2004lHello and welcome to ICTE2!
+[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ [7mdate[27mdate
+[?2004lTue Jan 13 12:45:08 CST 2026
+[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ [7m# Display full path of home directory[27m
+[7mecho $HOME[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ # Display full path of home directory
+echo $HOME
+[?2004l/home/wenhan
+[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ [7m# Change to home directory[27m
+[7mcd ~[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: /mnt/d/eep520/520win26[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m/mnt/d/eep520/520win26[00m$ # Change to home directory
+cd ~
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# List files in current directory[27m
+[7mls[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ # List files in current directory
+ls\[K
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# Create directory temp[27m
+[7mmkdir temp[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ # Create directory temp
+mkdir temp
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# Rename directory to temp_new[27m
+[7mmv temp temp_new[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ # Rename directory to temp_new
+mv temp temp_new
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# Enter temp_new directory[27m
+[7mcd temp_new[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ # Enter temp_new directory
+cd temp_new
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~/temp_new[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~/temp_new[00m$ [7mtouch file5[27mtouch file5
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~/temp_new[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~/temp_new[00m$ [7mmv file5 test[27mmv file5 test
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~/temp_new[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~/temp_new[00m$ [7mcd ..[27mcd ..
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7mrm -r temp_new[27mrm -r temp_new
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# Create secretfile with content[27m
+[7mecho "It's a secret!" > secretfile[27m[A# Create secretfile with content
+echo "It's a secret!" > secretfile
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# Remove write permission[27m
+[7mchmod a-w secretfile[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ # Remove write permission
+chmod a-w secretfile
+[?2004l[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7m# Display file permissions[27m
+[7mls -l secretfile[27m[A]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ # Display file permissions
+ls -l secretfile
+[?2004l-r--r--r-- 1 wenhan wenhan 15 Jan 13 12:48 secretfile
+[?2004h]0;wenhan@LAPTOP-4CRQCQGQ: ~[01;32mwenhan@LAPTOP-4CRQCQGQ[00m:[01;34m~[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-01-13 12:49:00+08:00 [COMMAND_EXIT_CODE="0"]
